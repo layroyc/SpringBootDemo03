@@ -1,0 +1,58 @@
+2021-10-11 16:12:36.536  INFO 7732 --- [restartedMain] com.wy.Springbootdemo01Application       : Starting Springbootdemo01Application using Java 1.8.0_121 on PC-20191124TVRD with PID 7732 (D:\dashuju\ideaIU2018\springbootworks\springbootdemo01\target\classes started by Administrator in D:\dashuju\ideaIU2018\springbootworks\springbootdemo01)
+2021-10-11 16:12:36.574  INFO 7732 --- [restartedMain] com.wy.Springbootdemo01Application       : No active profile set, falling back to default profiles: default
+2021-10-11 16:12:38.501  INFO 7732 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-10-11 16:12:41.394  INFO 7732 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-11 16:12:41.397  INFO 7732 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-11 16:12:41.435  INFO 7732 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+2021-10-11 16:12:42.564  INFO 7732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-10-11 16:12:42.575  INFO 7732 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-11 16:12:42.575  INFO 7732 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-11 16:12:42.589  INFO 7732 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.19] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2021-10-11 16:12:42.590  INFO 7732 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+2021-10-11 16:12:42.590  INFO 7732 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2021-10-11 16:12:42.590  INFO 7732 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-10-11 16:12:42.652  INFO 7732 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2021-10-11 16:12:42.823  INFO 7732 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-11 16:12:42.823  INFO 7732 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4321 ms
+2021-10-11 16:12:42.844 DEBUG 7732 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-10-11 16:12:42.844 DEBUG 7732 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-10-11 16:12:43.313  INFO 7732 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-10-11 16:12:43.746  INFO 7732 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-10-11 16:12:44.997 DEBUG 7732 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-11 16:12:45.099 DEBUG 7732 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2021-10-11 16:12:45.104  INFO 7732 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-11 16:12:45.163 DEBUG 7732 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-11 16:12:45.186 DEBUG 7732 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-11 16:12:46.916  INFO 7732 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-11 16:12:46.993  INFO 7732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-10-11 16:12:47.021  INFO 7732 --- [restartedMain] com.wy.Springbootdemo01Application       : Started Springbootdemo01Application in 13.839 seconds (JVM running for 17.821)
+2021-10-11 16:13:43.204  INFO 7732 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-11 16:13:43.205  INFO 7732 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-11 16:13:43.205 DEBUG 7732 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-10-11 16:13:43.205 DEBUG 7732 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-10-11 16:13:43.206 DEBUG 7732 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-10-11 16:13:43.207 DEBUG 7732 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@662aa5ef
+2021-10-11 16:13:43.208 DEBUG 7732 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@4a7d16a4
+2021-10-11 16:13:43.208 DEBUG 7732 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-10-11 16:13:43.209  INFO 7732 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2021-10-11 16:13:43.774 DEBUG 7732 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/page/studentList", parameters={}
+2021-10-11 16:13:43.799 DEBUG 7732 --- [http-nio-9090-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.wy.controller.PageController#studentList()
+2021-10-11 16:13:44.163 DEBUG 7732 --- [http-nio-9090-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8]
+2021-10-11 16:13:45.242 DEBUG 7732 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-11 16:13:45.285 DEBUG 7732 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/vue.js", parameters={}
+2021-10-11 16:13:45.285 DEBUG 7732 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/axios.min.js", parameters={}
+2021-10-11 16:13:45.290 DEBUG 7732 --- [http-nio-9090-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-11 16:13:45.290 DEBUG 7732 --- [http-nio-9090-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-11 16:13:45.473 DEBUG 7732 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-11 16:13:45.523 DEBUG 7732 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-11 16:13:46.103 DEBUG 7732 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/student/selectPageAll?page=1&limit=6&studentSex=&studentName=", parameters={masked}
+2021-10-11 16:13:46.103 DEBUG 7732 --- [http-nio-9090-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.wy.controller.StudentController#selectPageAll(Student, Integer, Integer)
+2021-10-11 16:13:47.780 DEBUG 7732 --- [http-nio-9090-exec-5] c.w.d.StudentDAO.selectByExample_COUNT   : ==>  Preparing: SELECT count(0) FROM student
+2021-10-11 16:13:47.923 DEBUG 7732 --- [http-nio-9090-exec-5] c.w.d.StudentDAO.selectByExample_COUNT   : ==> Parameters: 
+2021-10-11 16:13:48.433 DEBUG 7732 --- [http-nio-9090-exec-5] c.w.d.StudentDAO.selectByExample_COUNT   : <==      Total: 1
+2021-10-11 16:13:48.438 DEBUG 7732 --- [http-nio-9090-exec-5] com.wy.dao.StudentDAO.selectByExample    : ==>  Preparing: select student_id, student_name, student_sex, student_card_id, student_phone, student_address, student_come_date from student LIMIT ?
+2021-10-11 16:13:48.438 DEBUG 7732 --- [http-nio-9090-exec-5] com.wy.dao.StudentDAO.selectByExample    : ==> Parameters: 6(Integer)
+2021-10-11 16:13:48.465 DEBUG 7732 --- [http-nio-9090-exec-5] com.wy.dao.StudentDAO.selectByExample    : <==      Total: 6
+2021-10-11 16:13:48.565 DEBUG 7732 --- [http-nio-9090-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-10-11 16:13:48.566 DEBUG 7732 --- [http-nio-9090-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=20000, msg=操作成功, data=PageInfo{pageNum=1, pageSize=6, size=6, startRow=1, endRow=6, tota (truncated)...]
+2021-10-11 16:13:48.627 DEBUG 7732 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
